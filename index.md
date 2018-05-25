@@ -1,12 +1,19 @@
 ## Data Science portfolio - the tip of the iceberg
-My name is Romain Guion, and I have 4 years' professional experience in the healthcare industry as a consultant, project leader and scientist. Prior to that I worked as a M&A analyst in the energy industry and as a rocket scientist. I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths
+My name is Romain Guion, and I have 4 years' professional experience in the healthcare industry as a consultant, project leader and scientist. Prior to that I worked as a M&A analyst in the energy industry and as a rocket scientist. 
+
+I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics
 
 All my professional work is confidential. [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
-### Overview
-![Tree predicting passenger survival in the Titanic](https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG)
+### Visuals first, text after
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_learningCurves.PNG" alt="Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem." height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means.PNG" alt="K-means" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means_compression.PNG" alt="Using K-means for color compression" height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/faces_post_PCA_36Eigenvectors.PNG" alt="Using top 36 eigenvectors (PCA)" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/raspberry_pi_pattern_recognition_openCV_tensorflow.PNG" alt="Pattern recognition on a Raspberry Pi using openCV and Tensorflow." height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/candle_stick_2009_stock.png" alt="Accessing and plotting stock data from Python" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/financial_crisis_stocks_iplot.PNG" alt="Accessing and plotting stock data from Python" height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/output_movieRecommandation_forRelativelyNewUser.PNG" alt="Mono-user movie recommendation system" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/anomaly_detection.PNG" alt="Anomaly detection (project from Andrew Ng's course)" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/ADCP_attenuation_contourplot.PNG" alt="Attenuation contourplot of an Acoustic Doppler Current Profiler" height="200">
+
 
 ### Long projects (a few months)
 - **Current project: multi-user movie recommendation system**. I am working in collaboration with a Java developer on doing an app that makes movie nights between friends smoother. I am doing algorithm aspect - this multi-user / multi-preference machine learning algorithm. If the algorithm works well, there may be many applications. The current approach is to experiment around collaborative filtering and low rank matrix factorisation. I won't same more for now. Tools: Python. _2018_
@@ -35,6 +42,7 @@ All these projects were pretty easy, as most were through courses extensively gu
 - email spam classifier - simple natural language processing using stemming and bagging. _2018_
 - house price prediction - linear regression. _2018_
 - recommender systems for movie rating - collaborative filtering. _2018_
+- anomaly detection to detect failing servers on a network - typical example of unsupervised learning, here using a simple multivariate gaussian kernel _2018_
 - image compression - K-means and PCA. _2018_
 
 **Python**. When I followed Jose XX's course on data science, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK.
@@ -52,33 +60,3 @@ All these projects were pretty easy, as most were through courses extensively gu
 **Spark and parallel processing**
 - I opened an Amazon Web Services (AWS) account to play a bit with Spark/PySpark.
 - tiny project on predicting click through rate, and how this example of dataset can benefit from online learning (continuous data set making a machine learning algorithm continuously adapt), and how non-online algorithms need to be adapted with stochastic gradient descent / mini-batch gradient descent, and parallelised using map reduce.
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rugg2/rugg2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
