@@ -8,7 +8,11 @@ All my professional work is confidential. [My LinkedIn](https://www.linkedin.com
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
 ### Visuals first, text after
+https://github.com/rugg2/rugg2.github.io/tree/master/titanic_tree_small.PNG
 
+https://github.com/rugg2/rugg2.github.io/titanic_tree_small.PNG
+
+https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG
 
 <img src="https://github.com/rugg2/rugg2.github.io/tree/master/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200">
 
