@@ -8,6 +8,15 @@ All my professional work is confidential. [My LinkedIn](https://www.linkedin.com
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
 ### Visuals first, text after
+![Tree predicting passenger survival on the Titanic]({{https://github.com/rugg2/rugg2.github.io/}}/titanic_tree_small.PNG)
+
+![Tree predicting passenger survival on the Titanic]({{https://github.com/rugg2/rugg2.github.io/blob/master/}}/titanic_tree_small.PNG)
+
+![Tree predicting passenger survival on the Titanic]({{https://github.com/rugg2/rugg2.github.io/blob/master/}}titanic_tree_small.PNG)
+
+<img src="https://github.com/rugg2/rugg2.github.io/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200">
+
+
 ![Tree predicting passenger survival on the Titanic](https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG) ![Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem](https://github.com/rugg2/rugg2.github.io/blob/master/titanic_learningCurves.PNG)
 
 
