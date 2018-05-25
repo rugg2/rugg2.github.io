@@ -1,35 +1,62 @@
-## Work in progress
+## Data Science portfolio - the tip of the iceberg
+My name is Romain Guion, and I have 4 years' professional experience in the healthcare industry as a consultant, project leader and scientist. Prior to that I worked as a M&A analyst in the energy industry and as a rocket scientist. 
 
-Work in progress
+I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics.
 
-### Markdown
+All my professional work is confidential. [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+_(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
-```markdown
-Syntax highlighted code block
+### Visuals first, text after
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_learningCurves.PNG" alt="Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem." height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means.PNG" alt="K-means" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means_compression.PNG" alt="Using K-means for color compression" height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/faces_post_PCA_36Eigenvectors.PNG" alt="Using top 36 eigenvectors (PCA)" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/raspberry_pi_pattern_recognition_openCV_tensorflow.PNG" alt="Pattern recognition on a Raspberry Pi using openCV and Tensorflow." height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/candle_stick_2009_stock.png" alt="Accessing and plotting stock data from Python" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/financial_crisis_stocks_iplot.PNG" alt="Accessing and plotting stock data from Python" height="200">
+<img src="https://github.com/rugg2/rugg2.github.io/blob/master/output_movieRecommandation_forRelativelyNewUser.PNG" alt="Mono-user movie recommendation system" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/anomaly_detection.PNG" alt="Anomaly detection (project from Andrew Ng's course)" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/ADCP_attenuation_contourplot.PNG" alt="Attenuation contourplot of an Acoustic Doppler Current Profiler" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/median_booking_price.png" alt="Turning 10,000 lines of listing information into a plot representative of the booking experience. Tool:Python." height="200">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Long projects (a few months)
+- **Current project: multi-user movie recommendation system**. I am working in collaboration with a Java developer on doing an app that makes movie nights between friends smoother. I am covering the machine learning aspect - multi-user / multi-preference recommandation system. If the algorithm works well, there may be many applications. The current approach is to experiment around collaborative filtering and low rank matrix factorisation. I won't say more for now. Tools: Python. _2018_
 
-1. Numbered
-2. List
+- **Current contracting role - management consultant and data scientist for [Padam.io](https://www.padam.io/en/)**. Padam brings AI-powered on-demand bus services to medium and low density areas. My intervention is focused on the UK market. My mission started very broad: how can we improve our clients' profit, and Padam's service in general. I started framing generic revenue and cost questions, and went down to product management questions. I then got access to 3 years of an anonymised database, and mapped growth bottlenecks and potential levers. I then went on to define KPIs for customer retention and operational efficiency, and I am working on optimised processes to increase those. The details are obviously confidential. Tools: Python, pSQL, Django. _2018_
 
-**Bold** and _Italic_ and `Code` text
+- **Space-time analysis of eddies captured by ADCP devices**. Work done at the Whittle Laboratory at Cambridge around 2013. The aim was to help tidal turbines work better, as many were working well in the lab but broke on-site. I looked at the most popular device used in marine environment to measure currents and eddies: the Acoustic Doppler Current Profiler (ADCP). I found that there is a significant gap in the frequency and size of eddies this tool could capture. And this blind spot is right in the range that can break tidal turbines and is site-dependant. This led to a conference presentation at Oceans14 in St John's, Canada, and [a few papers](https://ieeexplore.ieee.org/document/7003057/). Tools: pen & paper, and Matlab. _2013_
 
-[Link](url) and ![Image](src)
-```
+- **Transportation network design optimization using custom genetic algorithms - application to Hong Kong railway**. Work done at Ecole Centrale Paris in 2011. In this project we were looking at transportation networks, and given certain nodes and passenger journeys, how best to chose lines running through them. One part of the team looked at applying standard algorithms, while I developed my own evolutionary algorithms and implemented them in C++. I defined lines as entities that could mate, and the mating process would have evolutionary-inspired processes such as mutations, crossing over etc. To set the evolutionary pressure I came up with a purpose made Lagrangian multiplier, which really had a massive impact on the optimization performance. With the same team we made a broad review of artificial intelligence techniques at the time. We also quickly looked at teaching a bot to move on a 2D grid and get food using a very basic reinforcement learning technique, but the algorithm was barely better than random! (oups!). Tools: pen & paper, and C++. _2011_
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Mid-size projects (a few days)
+- **Workshop at HIT: Kaggle Titanic dataset and Raspberry Pi with capacity-touch sensor and camera for object recognition**. Check-out my Python [kaggle kernel](https://www.kaggle.com/romainguion/titanic-a-thinking-process) (machine learning and data science). I prepared this quickly for a workshop I co-led at the Harare Institute of Technology (Zimbabwe) in 2017. We had 13 second and fourth year cybersecurity students and a couple of professors attending our workshop. We designed the workshop to broaden their horizon, and help them independantly explore a few topics. Entrepreneuship is vital in Zim. We chose to introduce the students to Data Science with the titanic dataset, as they then become part of the Kaggle community and can keep on learning by themselves. We thought hardware was also important, so my friend brought a few Raspberry Pis with two modules: capacity-touch sensor and the camera. The capacity-touch sensor was relevant for the students to detect when people touch a door handle or another conductive surface. For the workshop we ended up doing something more interactive and build a piano using spoons, apples and bananas. The camera was for intrusion detection, using openCV and tensorflow for image recognition. The rational is that motion sensors create a lot of false positive alerts, as they can be triggered by a moving branch, a dog, or someone authorized to be in the house. We thought this could become a business, but realised [Google had been working with Nest for a year to do just that](https://www.forbes.com/sites/aarontilley/2016/09/08/nest-gives-its-security-cameras-brains-using-googles-computer-vision-software/#1cfc2be3413f). Competing with Google on AI is hard. Tools: Python. _2017_
 
-### Jekyll Themes
+- **Leads prioritization for a start-up in Los Angeles**. This was in 2018. The company was looking at increasing the conversion rate of its call center given limited resources. I was sent a list of 10,000 anonymized leads that had been called 1-3+ times, and the document captured the time to reach out, call duration, what the main objection of the customer was, and whether it had converted or not. The key for me was to shift from customer conversion prediction to call conversion predictions, and think of calls as if they were evolving in a sort of Markov-chain. The states of this Markov chain would be the objections, but the reason why it isn't a true Markov chain is (i) that more than one step of history was required, and (ii) that the initial state seemed to matter quite a bit - I thought of this as a customer Persona. The result was a prioritization algorithm in python based on (i) a Random Forrest Classifier that would predict conversion probability, and (ii) a time-sensitivity algorithm that would manage the different impact of calling back later of each lead type at each stage of the sales process. Tools: Python. _2017_
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rugg2/rugg2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- **Website**. My first contact with programming was when I was 13. I did an ugly website in html and css, and an ok forum in PHP using MySQL. I thought it'd be funny to capture this project here! _2002_
 
-### Support or Contact
+### Mini projects (< 1 day)
+All the mini-projects that follow were pretty easy, as most were through courses extensively guiding the students. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Python**. Personal projects.
+- TreefortBNB - [a fun Priceonomics puzzle](https://priceonomics.com/the-priceonomics-data-puzzle-treefortbnb/). The puzzle gives 10,000 lines of data on a business similar to Airbnb. The aim is to get nice stats on the most expensive cities in the US on TreefortBnb.com, so that Priceonomics can write an article about it. The key insight for me was a paradigm shift from listing statistics (the raw data) to booking statistics (what is most representative of user experience). This is still a running puzzle, so I won't give more details. _2018_
+
+**Matlab**. When I followed Andrew Ng's Stanford Machine Learning course, I did quite a few mini-projects that led me to write classic machine learning algorithms from first principle (algorithmics and matrix computations).
+- digits recognition - neural networks (we wrote the forward and backpropagation algorithms ourselves). _2018_
+- email spam classifier - simple natural language processing using stemming and bagging. _2018_
+- house price prediction - linear regression. _2018_
+- recommender systems for movie rating - collaborative filtering. _2018_
+- anomaly detection to spot failing servers on a network - typical example of unsupervised learning, here using a simple multivariate gaussian kernel _2018_
+- image compression - K-means and PCA. _2018_
+
+**Python**. When I followed Jose Portilla's course on data science, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK.
+- Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). _2018_
+- SMS spam classifier - simple natural language processing, multinomial naive bayes (Irvine dataset). _2018_
+- handwritten digits (MNIST dataset) - TensorFlow and multi-layer perceptrons. _2018_
+- loan default prediction - Random forrest. _2018_
+- tumor malignant or benign - SVM (sklearn breast cancer dataset). _2018_
+- iris flower dataset - SVM (historical dataset from the 1930s). _2018_
+- can we distinguish between public and private universities - k-means. _2018_
+- recommendation systems - model-based classifier (using SVD) and memory-based classifier (cosine similarity). _2018_
+- SF salaries, e-commerce purchases, 911 calls - data analysis and visualization. _2018_
+- retrieve live stock information and technical analysis. _2018_
+
+**Spark and parallel processing**
+- I opened an Amazon Web Services (AWS) account to play a bit with Spark/PySpark.
+- tiny project on predicting click through rate, and how this example of dataset can benefit from online learning (continuous data set making a machine learning algorithm continuously adapt), and how non-online algorithms need to be adapted with stochastic gradient descent / mini-batch gradient descent, and parallelised using map reduce.
