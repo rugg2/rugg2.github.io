@@ -9,7 +9,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 ### Visuals first, text after
 
-<br /><br />
+<br />
 <img src="https://rugg2.github.io/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200"><img src="https://rugg2.github.io/titanic_learningCurves.PNG" alt="Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem." height="200">
 <img src="https://rugg2.github.io/K-means.PNG" alt="K-means" height="200"><img src=https://rugg2.github.io/K-means_compression.PNG" alt="Using K-means for color compression" height="200">
 <img src="https://rugg2.github.io/faces_post_PCA_36Eigenvectors.PNG" alt="Using top 36 eigenvectors (PCA)" height="200"><img src="https://rugg2.github.io/raspberry_pi_pattern_recognition_openCV_tensorflow.PNG" alt="Pattern recognition on a Raspberry Pi using openCV and Tensorflow." height="200">
