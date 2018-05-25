@@ -8,6 +8,9 @@ All my professional work is confidential. [My LinkedIn](https://www.linkedin.com
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
 ### Visuals first, text after
+![Tree predicting passenger survival on the Titanic](https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG) ![Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem](https://github.com/rugg2/rugg2.github.io/blob/master/titanic_learningCurves.PNG)
+
+
 <img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/titanic_learningCurves.PNG" alt="Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem." height="200">
 <img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means.PNG" alt="K-means" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/K-means_compression.PNG" alt="Using K-means for color compression" height="200">
 <img src="https://github.com/rugg2/rugg2.github.io/blob/master/faces_post_PCA_36Eigenvectors.PNG" alt="Using top 36 eigenvectors (PCA)" height="200"><img src="https://github.com/rugg2/rugg2.github.io/blob/master/raspberry_pi_pattern_recognition_openCV_tensorflow.PNG" alt="Pattern recognition on a Raspberry Pi using openCV and Tensorflow." height="200">
