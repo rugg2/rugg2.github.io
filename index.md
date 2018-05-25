@@ -5,11 +5,10 @@ I am also a graduate from the University of Cambridge, and I hold a MSc in Math 
 
 All my professional work is confidential. [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
-_(Note: one bit of my work that is public are [my patent
-
-s](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
+_(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
 ### Visuals first, text after
+
 
 <img src="https://rugg2.github.io/titanic_tree_small.PNG" alt="Tree predicting passenger survival on the Titanic" height="200"><img src="https://rugg2.github.io/titanic_learningCurves.PNG" alt="Learning curve on the Titanic dataset. The gap between learning and training accuracy suggests a variance problem." height="200">
 <img src="https://rugg2.github.io/K-means.PNG" alt="K-means" height="200"><img src=https://rugg2.github.io/K-means_compression.PNG" alt="Using K-means for color compression" height="200">
