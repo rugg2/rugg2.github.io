@@ -2,7 +2,7 @@ My name is Romain Guion, and I have 4 years' professional experience in the heal
 
 I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics.
 
-All my professional work is confidential. [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
+**All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
