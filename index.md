@@ -1,4 +1,3 @@
-## Data Science portfolio - the tip of the iceberg
 My name is Romain Guion, and I have 4 years' professional experience in the healthcare industry as a consultant, project leader and scientist. Prior to that I worked as a M&A analyst in the energy industry and as a rocket scientist. 
 
 I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics.
