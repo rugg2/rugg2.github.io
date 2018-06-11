@@ -6,7 +6,7 @@ Although Data Science is mainly about critical thinking, people like to talk abo
 - What I use most commonly: Python (NumPy, Pandas, Matplotlib / Seaborn / Plotly, SciKit Learn etc.), Matlab, Excel, and SQL.
 - I am also comfortable working with R and Django, other Python libraries (TensorFlow, SciPy, NLTK), and other programming languages and software such as Tableau and Power BI.
 
-**All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures the only things I can say. And until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
+**All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures my professional journey. Until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
 _(Note: one bit of my work that is public are [my patents](https://patents.google.com/?inventor=romain+guion&oq=romain+guion))_
 
