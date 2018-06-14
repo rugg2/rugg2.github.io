@@ -40,7 +40,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - **Website**. My first contact with programming was when I was 13. I did an ugly website in html and css, and an ok forum in PHP using MySQL. I thought it'd be funny to capture this project here! _2002_
 
 ### Mini projects (< 1 day)
-All the mini-projects that follow were pretty easy, as most were through courses extensively guiding the students. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
+Most of the mini-projects that follow were pretty easy, particularly for those that were part of online courses, as they are guiding the students extensively. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
 **Python**. Personal projects.
 - [Causal inference - Lalonde dataset](https://rugg2.github.io/Lalonde%20dataset%20-%20Causal%20Inference.html). Causal inference is what people typically call "controlling for confounding factors". Causal inference is used in observational studies in all fields, e.g. public health, econometrics and marketing. This specific example explores the famous Lalonde dataset, which was a particularly unbalanced study looking at the effect of a job training program. In this notebook I use propensity matching to separate the treatment effect from an unbalanced population. Tools: Python, CausalInference package. _2018_
