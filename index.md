@@ -40,6 +40,9 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - **Website**. My first contact with programming was when I was 13. I did an ugly website in html and css, and an ok forum in PHP using MySQL. I thought it'd be funny to capture this project here! _2002_
 
 ### Mini projects (< 1 day)
+**Math**
+- [A/B testing statistics - intuition and derivation for power analysis](https://rugg2.github.io/AB%20testing%20-%20a%20simple%20explanation%20of%20what%20power%20analysis%20does.html). Online resources on A/B testing they tend to be black boxes with very top level insights. My experience is that it prevents experimenters from truly understanding what’s going on. In this document, I give a brief introduction of what A/B testing is used for, and focus on providing a simple, yet more detailed intuition of the statistical logic
+
 Most of the mini-projects that follow were pretty easy, particularly for those that were part of online courses, as they are guiding the students extensively. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
 **Python**. Personal projects.
