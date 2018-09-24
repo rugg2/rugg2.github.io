@@ -40,7 +40,9 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 ### Mini projects (< 1 day)
 **Math**
-- [A/B testing statistics - intuition and derivation for power analysis](https://rugg2.github.io/AB%20testing%20-%20a%20simple%20explanation%20of%20what%20power%20analysis%20does.html). Online resources on A/B testing they tend to be black boxes with very top level insights. My experience is that it prevents experimenters from truly understanding what’s going on. In this document, I give a brief introduction of what A/B testing is used for, and focus on providing a simple, yet more detailed intuition of the statistical logic
+- [A/B testing statistics - intuition and derivation for power analysis](https://rugg2.github.io/AB%20testing%20-%20a%20simple%20explanation%20of%20what%20power%20analysis%20does.html). Online resources on A/B testing tend to be black boxes with very top level insights. My experience is that it prevents experimenters from truly understanding what’s going on. In this document, I give a brief introduction of what A/B testing is used for, and focus on providing a simple, yet more detailed intuition of the frequentist statistical logic
+
+- [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors.
 
 Most of the mini-projects that follow were pretty easy, particularly for those that were part of online courses, as they are guiding the students extensively. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
