@@ -72,6 +72,7 @@ Most of the mini-projects that follow were pretty easy, particularly for those t
 - recommendation systems - model-based classifier (using SVD) and memory-based classifier (cosine similarity). 
 - SF salaries, e-commerce purchases, 911 calls - data analysis and visualization. 
 - retrieve live stock information and technical analysis. 
+
 **PySpark - parallel processing**
 - While I usually work with the AWS account of the company I work for (Redshift, S3, Mongo DB, SageMaker), I went through the process of opening my own AWS account, e.g. to play a bit with PySpark
 - Originally I discovered Spark through DataCamp and Jose Portilla's intro courses. Mini-projects:
