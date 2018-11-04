@@ -54,27 +54,26 @@ Most of the mini-projects that follow were pretty easy, particularly for those t
 - TreefortBNB - [a fun Priceonomics puzzle](https://priceonomics.com/the-priceonomics-data-puzzle-treefortbnb/). The puzzle gives 10,000 lines of data on a business similar to Airbnb. The aim is to get nice stats on the most expensive cities in the US on TreefortBnb.com, so that Priceonomics can write an article about it. The key insight for me was a paradigm shift from listing statistics (the raw data) to booking statistics (which is most representative of user experience). This is still a running puzzle, so I won't give more details. _2018_
 
 **Matlab**. When I followed Andrew Ng's Stanford Machine Learning course, I did quite a few mini-projects that led me to write classic machine learning algorithms from first principle (algorithmics and matrix computations).
-- digits recognition - neural networks (we wrote the forward and backpropagation algorithms ourselves). _2018_
-- email spam classifier - simple natural language processing using stemming and bagging. _2018_
-- house price prediction - linear regression. _2018_
-- recommender systems for movie rating - collaborative filtering. _2018_
-- anomaly detection to spot failing servers on a network - typical example of unsupervised learning, here using a simple multivariate gaussian kernel _2018_
-- image compression - K-means and PCA. _2018_
+- digits recognition - neural networks (we wrote the forward and backpropagation algorithms ourselves). 
+- email spam classifier - simple natural language processing using stemming and bagging. 
+- house price prediction - linear regression. 
+- recommender systems for movie rating - collaborative filtering. 
+- anomaly detection to spot failing servers on a network - typical example of unsupervised learning, here using a simple multivariate gaussian kernel 
+- image compression - K-means and PCA.
 
 **Python**. When I followed Jose Portilla's course on data science, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK.
-- Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). _2018_
-- SMS spam classifier - simple natural language processing, multinomial naive bayes (Irvine dataset). _2018_
-- handwritten digits (MNIST dataset) - TensorFlow and multi-layer perceptrons. _2018_
-- loan default prediction - Random forrest. _2018_
-- tumor malignant or benign - SVM (sklearn breast cancer dataset). _2018_
-- iris flower dataset - SVM (historical dataset from the 1930s). _2018_
-- can we distinguish between public and private universities - k-means. _2018_
-- recommendation systems - model-based classifier (using SVD) and memory-based classifier (cosine similarity). _2018_
-- SF salaries, e-commerce purchases, 911 calls - data analysis and visualization. _2018_
-- retrieve live stock information and technical analysis. _2018_
-
+- Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). 
+- SMS spam classifier - simple natural language processing, multinomial naive bayes (Irvine dataset). 
+- handwritten digits (MNIST dataset) - TensorFlow and multi-layer perceptrons.
+- loan default prediction - Random forrest.
+- tumor malignant or benign - SVM (sklearn breast cancer dataset).
+- iris flower dataset - SVM (historical dataset from the 1930s). 
+- can we distinguish between public and private universities - k-means. 
+- recommendation systems - model-based classifier (using SVD) and memory-based classifier (cosine similarity). 
+- SF salaries, e-commerce purchases, 911 calls - data analysis and visualization. 
+- retrieve live stock information and technical analysis. 
 **PySpark - parallel processing**
-- While I usually work with the AWS account of the company I work for (Redshift, S3, Mongo DB, SageMaker), I went through the process of opening my own AWS account, e.g. to play a bit with PySpark _2018_
+- While I usually work with the AWS account of the company I work for (Redshift, S3, Mongo DB, SageMaker), I went through the process of opening my own AWS account, e.g. to play a bit with PySpark
 - Originally I discovered Spark through DataCamp and Jose Portilla's intro courses. Mini-projects:
-- Flight delays prediction. I got familiarized with PySpark SQL-like queries to filter, merge and transform data. I then built a Sklearn-like pipeline on a simple logistic regression based on airplane age, air time, airline and destination airport. _2018_
-- Predicting click through rate, and how this example of dataset can benefit from online learning (continuous data set making a machine learning algorithm continuously adapt), and how non-online algorithms need to be adapted with stochastic gradient descent / mini-batch gradient descent, and parallelised using map reduce. _2018_
+- Flight delays prediction. I got familiarized with PySpark SQL-like queries to filter, merge and transform data. I then built a Sklearn-like pipeline on a simple logistic regression based on airplane age, air time, airline and destination airport. 
+- Predicting click through rate, and how this example of dataset can benefit from online learning (continuous data set making a machine learning algorithm continuously adapt), and how non-online algorithms need to be adapted with stochastic gradient descent / mini-batch gradient descent, and parallelised using map reduce.
