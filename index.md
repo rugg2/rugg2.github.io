@@ -4,7 +4,7 @@ I am also a graduate from the University of Cambridge, and I hold a MSc in Math 
 
 Although Data Science is mainly about critical thinking, people like to talk about tools, so here it is:
 - What I use most commonly: Python (NumPy, Pandas, Matplotlib / Seaborn / Plotly, SciKit Learn etc.), Matlab, Excel, and SQL.
-- I am also comfortable working with R, other Python libraries (TensorFlow, SciPy, NLTK), and other programming languages and software such as Tableau.
+- I am also comfortable working with R, other Python libraries (PySpark, TensorFlow, SciPy, NLTK), and other programming languages and software such as Tableau.
 
 **All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures my professional journey. Until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
