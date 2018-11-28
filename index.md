@@ -55,6 +55,8 @@ Most of the mini-projects that follow were pretty easy, particularly for those t
 
 - [Ads dataset](https://rugg2.github.io/ads_dataset.html). This is an anonymised data set of 19k lines of data about ads creatives, networks, number of days before release, number of views and actions taken by viewers. In this file I disentangle the impact of creative artists from the broadcasting context. I start with simple averages, then use a fixed effects model, and introduce an experimental random forrest classifier coupled with a fixed effect model. Tools: Python, Statsmodel, Sklearn. _2018_
 
+- [Planning a marketing campaign](https://rugg2.github.io/marketing_campaign_airmet.html). A ficticious start-up is planning a street marketing campaign in London. Leveraging a public data set, I identify the best place and time to run the campaign, what are the key assumptions made, and how to test them. _2018_ 
+
 - TreefortBNB - [a fun Priceonomics puzzle](https://priceonomics.com/the-priceonomics-data-puzzle-treefortbnb/). The puzzle gives 10,000 lines of data on a business similar to Airbnb. The aim is to get nice stats on the most expensive cities in the US on TreefortBnb.com, so that Priceonomics can write an article about it. The key insight for me was a paradigm shift from listing statistics (the raw data) to booking statistics (which is most representative of user experience). This is still a running puzzle, so I won't give more details. _2018_
 
 **Matlab**. When I followed Andrew Ng's Stanford Machine Learning course, I did quite a few mini-projects that led me to write classic machine learning algorithms from first principle (algorithmics and matrix computations).
