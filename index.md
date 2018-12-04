@@ -48,8 +48,6 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 - [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors.
 
-Most of the mini-projects that follow were pretty easy, particularly for those that were part of online courses, as they are guiding the students extensively. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
-
 **Python**. Personal projects.
 - **Improving matching rates on a two-sided market place**. This was a 48h data challenge I had to cram into 24h. The aim was to deliver 2-3 actionable recommendations about how to improve matching in the market place. Here are the links for [the presentation of my results](https://rugg2.github.io/project_files/two-sided_marketplace/presentation_only.pdf) and the [python notebook](https://rugg2.github.io/project_files/two-sided_marketplace/improving matching performance.html).
 
@@ -60,6 +58,8 @@ Most of the mini-projects that follow were pretty easy, particularly for those t
 - [Planning a marketing campaign](https://rugg2.github.io/marketing_campaign_airmet.html). A ficticious start-up is planning a street marketing campaign in London. Leveraging a public data set, I identify the best place and time to run the campaign, what are the key assumptions made, and how to test them. _2018_ 
 
 - TreefortBNB - [a fun Priceonomics puzzle](https://priceonomics.com/the-priceonomics-data-puzzle-treefortbnb/). The puzzle gives 10,000 lines of data on a business similar to Airbnb. The aim is to get nice stats on the most expensive cities in the US on TreefortBnb.com, so that Priceonomics can write an article about it. The key insight for me was a paradigm shift from listing statistics (the raw data) to booking statistics (which is most representative of user experience). This is still a running puzzle, so I won't give more details. _2018_
+
+Most of the mini-projects that follow were pretty easy and with extensive guidance. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
 **Matlab**. When I followed Andrew Ng's Stanford Machine Learning course, I did quite a few mini-projects that led me to write classic machine learning algorithms from first principle (algorithmics and matrix computations).
 - digits recognition - neural networks (we wrote the forward and backpropagation algorithms ourselves). 
