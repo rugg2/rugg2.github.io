@@ -42,7 +42,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 - **Website**. My first contact with programming was when I was 13. I did an ugly website in html and css, and an ok forum in PHP using MySQL. I thought it'd be funny to capture this project here! _2002_
 
-### Mini projects (< 1 day)
+### Mini projects (<= 1 day)
 **Math**
 - [A/B testing statistics - intuition and derivation for power analysis](https://rugg2.github.io/AB%20testing%20-%20a%20simple%20explanation%20of%20what%20power%20analysis%20does.html). Online resources on A/B testing tend to be black boxes with very top level insights. My experience is that it prevents experimenters from truly understanding what’s going on. In this document, I give a brief introduction of what A/B testing is used for, and focus on providing a simple, yet more detailed intuition of the frequentist statistical logic
 
@@ -51,6 +51,8 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 Most of the mini-projects that follow were pretty easy, particularly for those that were part of online courses, as they are guiding the students extensively. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
 **Python**. Personal projects.
+- [Improving matching rates on a two-sided market place](https://rugg2.github.io/project_files/two-sided_marketplace/improving matching performance.html). This was a 48h data challenge I had to cram into 24h. The aim was to deliver 2-3 actionable recommendations about how to improve matching in the market place. Here are the links for [the presentation of my results](https://rugg2.github.io/project_files/two-sided_marketplace/presentation_only.pdf) and the [python notebook](https://rugg2.github.io/project_files/two-sided_marketplace/improving matching performance.html).
+
 - [Causal inference - Lalonde dataset](https://rugg2.github.io/Lalonde%20dataset%20-%20Causal%20Inference.html). Causal inference is what people typically call "controlling for confounding factors". Causal inference is used in observational studies in all fields, e.g. public health, econometrics and marketing. This specific example explores the famous Lalonde dataset, which was a particularly unbalanced study looking at the effect of a job training program. In this notebook I use propensity matching to separate the treatment effect from an unbalanced population. Tools: Python, CausalInference package. _2018_
 
 - [Ads dataset](https://rugg2.github.io/ads_dataset.html). This is an anonymised data set of 19k lines of data about ads creatives, networks, number of days before release, number of views and actions taken by viewers. In this file I disentangle the impact of creative artists from the broadcasting context. I start with simple averages, then use a fixed effects model, and introduce an experimental random forrest classifier coupled with a fixed effect model. Tools: Python, Statsmodel, Sklearn. _2018_
