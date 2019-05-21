@@ -49,7 +49,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors.
 
 **Python**. Personal projects.
-- Predict amazon reviews rating using Word2Vec (Spacy) and Vador (NLTK) as features, combined in a simple classifier. _2019_
+- Predict amazon reviews rating using TfIdf, Word2Vec (Spacy) and Vador (NLTK) as features, combined in a simple classifier. _2019_
 
 - **Improving matching rates on a two-sided market place**. This was a 48h data challenge I had to cram into 24h. The aim was to deliver 2-3 actionable recommendations about how to improve matching in the market place. Here are the links for [the presentation of my results](https://rugg2.github.io/project_files/two-sided_marketplace/presentation_only.pdf) and the [python notebook](https://rugg2.github.io/project_files/two-sided_marketplace/improving matching performance.html). _2018_
 
