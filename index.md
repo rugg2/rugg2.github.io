@@ -1,10 +1,10 @@
-My name is Romain Guion, and I am heading an engineering and data science group at a startup called Vortexa. I previously worked as a data scientist with an entertainment LA-based startup called Pluto TV and with an AI-driven transportation startup called Padam. Prior to that I worked for 4 years in the healthcare industry as a consultant, project leader and scientist. I also briefly worked as a M&A analyst in the energy industry and as a rocket scientist. 
+My name is Romain Guion, and I am heading an engineering and data science department at a startup called Vortexa. I previously worked as a data scientist with an entertainment LA-based startup called Pluto TV and with an AI-driven transportation startup called Padam. Prior to that I worked for 4 years in the healthcare industry as a consultant, project leader and scientist. I also briefly worked as a M&A analyst in the energy industry and as a rocket scientist. 
 
 I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics.
 
 Although Data Science is mainly about critical thinking, people like to talk about tools, so here it is:
 - What I use most commonly: Python (NumPy, Pandas, Matplotlib / Seaborn / Plotly, SciKit Learn etc.), Matlab, Excel, and SQL.
-- I am also comfortable working with R, other Python libraries (PySpark, TensorFlow, SciPy, Spacy, NLTK), and other programming languages and software such as Tableau.
+- I am also comfortable working with R, other Python libraries (PySpark, Keras, TensorFlow, SciPy, Spacy, NLTK), and other programming languages and software such as Tableau.
 
 **All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures my professional journey. Until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
@@ -49,7 +49,9 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors.
 
 **Python**. Personal projects.
-- Predict amazon reviews rating using TfIdf, Word2Vec (Spacy) and Vador (NLTK) as features, combined in a simple classifier. _2019_
+- Very simple chatbot engine implementing (a simplified version of) the architecture of a [paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf) on a [Facebook](https://research.fb.com/downloads/babi/) dataset of Stories, Questions and Answers. The paper presents a structure to (a) represent the Stories as bag of words and taking into account word sequence within the sentence, and sequence between sentences, and (b) combine the stories and questions into some sort of prediction through some sort of LSTM RNN. _2019_
+
+- Predict amazon reviews rating using TfIdf, and Vador (NLTK) as features, combined in a simple classifier. I also played with Word2Vec Word2Vec (Spacy)  _2019_
 
 - **Improving matching rates on a two-sided market place**. This was a 48h data challenge I had to cram into 24h. The aim was to deliver 2-3 actionable recommendations about how to improve matching in the market place. Here are the links for [the presentation of my results](https://rugg2.github.io/project_files/two-sided_marketplace/presentation_only.pdf) and the [python notebook](https://rugg2.github.io/project_files/two-sided_marketplace/improving matching performance.html). _2018_
 
