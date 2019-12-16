@@ -23,6 +23,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/ResNet50.png" alt="Implementation of Resnet50 in Keras" height="200">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/CNN_smiling.PNG" alt="Convolutional neural network identifying smiling" height="200">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/YOLO_car.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
+<img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/artgeneration_neuralstyletransfer.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
 
 ### Long projects (a few months)
 
