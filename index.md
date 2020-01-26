@@ -38,6 +38,8 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 ### Mid-size projects (a few days)
 
+- **Ship detection from satellite images**: [first blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-1-95-accuracy-in-a-few-lines-of-code-8ee4acd72809) showing how a simple LeCun-style ConvNet achieves 95% accuracy in a few lines of code, and [second blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-2-the-beauty-the-beast-f92ff27b696a) exploring transfer learning and decision interpretability through GAP/GMP's implicit localisation properties. 
+
 - **[Forecasting bike rides at the network level and at the station pair level](https://rugg2.github.io/BIXI_bike_network_forecasting-v1.html)**. This was a data challenge I had to complete in a very limited time period. My first approach is focused on time-based trends, leverages Facebook's Prophet package. In a subsequent algorithms, I explore network effects and clusters of bike stations whose demands are correlated. Overall, the biggest learning for me was to structure the problem and potential solutions in details, and realize many solutions boil down to the variance vs bias problem. Indeed, to reduce noise (variance), aggregating data across space and time is effective, but only as long as the aggregated events are reasonably i.i.d. When one departs too far from this it creates bias. Tools: Python. _2018_
 
 - **Freelance Data Scientist for [Cetrix Cloud Services](https://www.cetrixcloudservices.com/)**. The client wanted to leverage Hubspot and Salesforce to automatically identify fit and interest points. My role was to scope and plan how to harvest user intent for dynamic adaptive marketing (e.g. personalized webpages or emails), given current and future data. Tools: Python. _2018_
@@ -55,6 +57,8 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors.
 
 **Python**
+- LSTM neural network generating jazz impro, based on the 5th course of the Deep Learning Coursera specialisation. [Listen to an example!](https://rugg2.github.io/project_files/jazz_impro_generated_by_romains_lstm.mp3) 
+
 - [Vulgarisation medium blog post](https://medium.com/vortechsa/turning-a-repetitive-business-task-into-a-self-improving-process-929c6b9a52dc) on how a couple of hours of machine learning can turn a repetitive business task into an automated self-improving process. _2019_
 
 - Very simple chatbot engine implementing (a simplified version of) the architecture of a [paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf) on a [Facebook](https://research.fb.com/downloads/babi/) dataset of Stories, Questions and Answers. The paper presents a structure to (a) represent the Stories as bag of words and taking into account word sequence within the sentence, and sequence between sentences, and (b) combine the stories and questions into some sort of prediction through some sort of LSTM RNN. _2019_
