@@ -57,6 +57,8 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - [A/B testing - bootstrap and bayesian perspective](https://rugg2.github.io/AB%20testing%20mathematics%20-%20part%20two.html). This post explores how to represent and interpret data while it is being collected. In this post we take a concrete marketing A/B test with various conversion rates and revenue per customer in each case. After quickly going over bootstrap methods to estimate uncertainty, we consider Bayesian probabilities as a way to model previous knowledge. In particular we enter some details about conjugate priors. _2018_
 
 **Python**
+- Recognition of word "activate" from audio clips, using a Convolutional layer and GRU (deep learning NLP. Spectrogram above. [Listen to an example with a chime after the word detection!](https://rugg2.github.io/project_files/activate_nlp_chine.wav) _2020_
+
 - LSTM neural network generating jazz impro, based on the 5th course of the Deep Learning Coursera specialisation. [Listen to an example!](https://rugg2.github.io/project_files/jazz_impro_generated_by_romains_lstm.mp3). _2020_ 
 
 - [Vulgarisation medium blog post](https://medium.com/vortechsa/turning-a-repetitive-business-task-into-a-self-improving-process-929c6b9a52dc) on how a couple of hours of machine learning can turn a repetitive business task into an automated self-improving process. _2019_
