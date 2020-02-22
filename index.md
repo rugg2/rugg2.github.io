@@ -25,6 +25,9 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/YOLO_car.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/class_activation_mapping.PNG" alt="Class activation mapping on vessel detection classifier ConvNet" height="300">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/artgeneration_neuralstyletransfer.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
+<img src="https://rugg2.github.io/project_files/audio_activate_detection_example_romain_speaking.PNG" alt="Trigger word recognition from audio sequence using Conv1D and GRU" height="200">
+
+
 
 ### Long projects (a few months)
 
