@@ -1,10 +1,10 @@
-My name is Romain Guion, and I am heading an engineering and data science department at a startup called Vortexa. I previously worked as a data scientist with an entertainment LA-based startup called Pluto TV and with an AI-driven transportation startup called Padam. Prior to that I worked for 4 years in the healthcare industry as a consultant, project leader and scientist. I also briefly worked as a M&A analyst in the energy industry and as a rocket scientist. 
+My name is Romain Guion, and I am heading an engineering and data science department at a London-based startup called Vortexa. I previously worked as a data scientist with an entertainment Los Angeles-based startup called Pluto TV and with an AI-driven transportation startup called Padam. Prior to that I worked for 4 years in the healthcare industry as a consultant, project leader and scientist. I also briefly worked as a M&A analyst in the energy industry and as a rocket scientist. 
 
 I am also a graduate from the University of Cambridge, and I hold a MSc in Math and Physics from Ecole Centrale Paris. The maths covered advanced statistical learning, discete-time stochastic processes, optimization, signal processing, financial mathematics, as well as a range of linear algebra, analysis and topology topics.
 
 Although Data Science is mainly about critical thinking, people like to talk about tools, so here it is:
 - What I use most commonly: Python (NumPy, Pandas, Matplotlib / Seaborn / Plotly, SciKit Learn etc.), Matlab, Excel, and SQL.
-- I am also comfortable working with R, other Python libraries (PySpark, Keras, TensorFlow, SciPy, Spacy, NLTK), and other programming languages and software such as Tableau.
+- I am also comfortable working with Scala, R, other Python libraries (PySpark, Keras, TensorFlow, SciPy, Spacy, NLTK), and other programming languages and software such as Tableau.
 
 **All my professional work is confidential.** [My LinkedIn](https://www.linkedin.com/in/romain-guion-32450031/) captures my professional journey. Until now, I never took the time to capture my side projects, so work in progress, and suggestions welcomed!
 
@@ -81,6 +81,11 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 - TreefortBNB - [a fun Priceonomics puzzle](https://priceonomics.com/the-priceonomics-data-puzzle-treefortbnb/). The puzzle gives 10,000 lines of data on a business similar to Airbnb. The aim is to get nice stats on the most expensive cities in the US on TreefortBnb.com, so that Priceonomics can write an article about it. The key insight for me was a paradigm shift from listing statistics (the raw data) to booking statistics (which is most representative of user experience). This is still a running puzzle, so I won't give more details. _2018_
 
 Most of the mini-projects that follow were pretty easy and with extensive guidance. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
+
+**Scala**. When I followed Martin Odersky's EPFL course on functional programming in Scala and Spark. Some key learnings:
+- functional programming core is about non mutable variables, and is in opposition to procedural languages. Scala / functional programming isn't an alternative to object oriented programming, and mixes well with it
+- functional programming makes parallelisation easier, as avoiding mutable variables by design helps with concurrency
+- scala mixes 2 principal forms of polymorphism: subtyping and generics. The two main interactions areas are bounds and variance
 
 **Matlab**. When I followed Andrew Ng's Stanford Machine Learning course, I did quite a few mini-projects that led me to write classic machine learning algorithms from first principle (algorithmics and matrix computations).
 - digits recognition - neural networks (we wrote the forward and backpropagation algorithms ourselves). 
