@@ -87,6 +87,9 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 Most of the mini-projects that follow were pretty easy and with extensive guidance. However, they were nevertheless pretty insightful, as it helped bridge the gap between what I know in math and algorithmics and real world applications.
 
+**Java**. While following some java courses, here are some key notes:
+- ArrayList is useful when the arraysize isn't fixed. Lookup is still O(1). Behind the scene ArrayList has an array perhaps 1.5 the time of what's currently full, and so adding elements to the arraylist usually is also O(1). From time to time though, the array behind the scene is too small to add a new element, and a new array needs to be created, and in this case there is a O(n) cost to copy all the data. When building an ArrayList by adding the elements one by one, knowing roughly how big the Array will get will help with performance.
+
 **Scala**. When I followed Martin Odersky's EPFL course on functional programming in Scala and Spark. Some key learnings:
 - functional programming core is about non mutable variables, and is in opposition to procedural languages. Scala / functional programming isn't an alternative to object oriented programming, and mixes well with it
 - functional programming makes parallelisation easier, as avoiding mutable variables by design helps with concurrency
