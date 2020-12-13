@@ -24,6 +24,7 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/CNN_smiling.PNG" alt="Convolutional neural network identifying smiling" height="200">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/YOLO_car.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/class_activation_mapping.PNG" alt="Class activation mapping on vessel detection classifier ConvNet" height="300">
+<img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/ship_localisation_example.png" alt="Ship image segmentation with a U-Net" height="300">
 <img src="https://rugg2.github.io/project_files/deepneuralnetworks_image/artgeneration_neuralstyletransfer.PNG" alt="YOLO algorithm applied on car images / videos" height="200">
 <img src="https://rugg2.github.io/project_files/audio_activate_detection_example_romain_speaking.PNG" alt="Trigger word recognition from audio sequence using Conv1D and GRU" height="200">
 
@@ -41,7 +42,11 @@ _(Note: one bit of my work that is public are [my patents](https://patents.googl
 
 ### Mid-size projects (a few days)
 
-- **Ship detection from satellite images**: [first blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-1-95-accuracy-in-a-few-lines-of-code-8ee4acd72809) showing how a simple LeCun-style ConvNet achieves 95% accuracy in a few lines of code, and [second blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-2-the-beauty-the-beast-f92ff27b696a) exploring transfer learning and decision interpretability through GAP/GMP's implicit localisation properties. _2020_
+- **Ship detection from satellite images**: 
+  - [first blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-1-95-accuracy-in-a-few-lines-of-code-8ee4acd72809) showing how a simple LeCun-style ConvNet achieves 95% accuracy in a few lines of code, 
+  - [second blog post](https://medium.com/@romain.guion/satellite-images-object-detection-part-2-the-beauty-the-beast-f92ff27b696a) exploring transfer learning and decision interpretability through GAP/GMP's implicit localisation properties. 
+  - [third blog post](https://medium.com/vortechsa/satellite-image-segmentation-part-3-eeb134fe3dd5) localising ships and classifying each pixel of the image as being part of a ship or not. This is using a U-Net structure for image segmentation.
+  _2020_
 
 - **[Forecasting bike rides at the network level and at the station pair level](https://rugg2.github.io/BIXI_bike_network_forecasting-v1.html)**. This was a data challenge I had to complete in a very limited time period. My first approach is focused on time-based trends, leverages Facebook's Prophet package. In a subsequent algorithms, I explore network effects and clusters of bike stations whose demands are correlated. Overall, the biggest learning for me was to structure the problem and potential solutions in details, and realize many solutions boil down to the variance vs bias problem. Indeed, to reduce noise (variance), aggregating data across space and time is effective, but only as long as the aggregated events are reasonably i.i.d. When one departs too far from this it creates bias. Tools: Python. _2018_
 
