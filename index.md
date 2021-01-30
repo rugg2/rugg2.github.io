@@ -101,9 +101,10 @@ Once the key length and language is known, Vigenere cipher breaks down into inte
 - functional programming makes parallelisation easier, as avoiding mutable variables by design helps with concurrency
 - scala mixes 2 principal forms of polymorphism: subtyping and generics. The two main interactions areas are bounds and variance
 
-**Python**. While following online courses, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK.
+**Python**. While following online courses, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK, SHAP, etc. Here is a few for which I took some notes:
 - How SHAP values enable feature importance estimation for any kind of models, making traditionally black-box ML models interpretable
 - Survival model, in particular how to model censored data (e.g. a patient that left a trial halfway through at say 12 months and didn't die while being monitored: there is information in the fact they didn't die after 12 months, but how to capture it in prognosis models?)
+- Handling null values is always a difficult problem. A handy approach I discovered and tried out on a medical dataset is iteratively modelling and predicting missing values, using sklearn's IterativeImputer.
 - Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). 
 - SMS spam classifier - simple natural language processing, multinomial naive bayes (Irvine dataset). 
 - handwritten digits (MNIST dataset) - TensorFlow and multi-layer perceptrons.
