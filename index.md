@@ -101,12 +101,13 @@ Once the key length and language is known, Vigenere cipher breaks down into inte
 - functional programming makes parallelisation easier, as avoiding mutable variables by design helps with concurrency
 - scala mixes 2 principal forms of polymorphism: subtyping and generics. The two main interactions areas are bounds and variance
 
-**Python**. While following online courses, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK, SHAP, lifelines etc. Here is a few for which I took some notes:
-- randomised control trials: effect of Levamisole and Fluorouracil on patients who have had surgery to remove their colon cancer. Analysis (traditional statistics or ML techniques), interpretation, evaluation of risk reduction and C-statistic on the ability to predict the risk of an outcome, and concordance-statistic for benefit of treatment
-- How SHAP values enable feature importance estimation for any kind of models, making traditionally black-box ML models interpretable
-- Survival model, in particular how to model censored data (e.g. a patient that left a trial halfway through at say 12 months and didn't die while being monitored: there is information in the fact they didn't die after 12 months, but how to capture it in prognosis models?)
+**Data Science**. While following online courses, I did quite a few mini-projects. Those were very simple and top-level, but a good excuse to get up to date with the popular python tools people use in data science today: Numpy, Pandas, Matplotlib, Seaborn, Plotly, SciKit Learn, Python SQL interface, SciPy, TensorFlow, NLTK, SHAP, lifelines etc. Here is a few for which I took some notes:
+- NLP: non-contextualised word representation (Word2Vec, Glove) and contextualised word representation (ELMo, BERT) -> important particularly for words with different meanings
+- randomised control trials: effect of Levamisole and Fluorouracil on patients who have had surgery to remove their colon cancer. Analysis (traditional statistics or ML techniques), interpretation, evaluation of risk reduction and C-statistic on the ability to predict the risk of an outcome, and concordance-statistic for benefit of treatment _2020_
+- How SHAP values enable feature importance estimation for any kind of models, making traditionally black-box ML models interpretable _2020_
+- Survival model, in particular how to model censored data (e.g. a patient that left a trial halfway through at say 12 months and didn't die while being monitored: there is information in the fact they didn't die after 12 months, but how to capture it in prognosis models?) _2020_
 - Handling null values is always a difficult problem. A handy approach I discovered and tried out on a medical dataset is iteratively modelling and predicting missing values, using sklearn's IterativeImputer.
-- Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). 
+- Yelp ratings' prediction from comments - simple natural language processing (Bag-of-words, get rid of common words, TFIDF, inverse document frequency). _2018_
 - SMS spam classifier - simple natural language processing, multinomial naive bayes (Irvine dataset). 
 - handwritten digits (MNIST dataset) - TensorFlow and multi-layer perceptrons.
 - loan default prediction - Random forrest.
